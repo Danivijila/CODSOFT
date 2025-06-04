@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dani Vijila Catherine.D - Portfolio</title>
+  <style>
+    :root {
+      --bg-color: #121212;
+      --text-color: #ffffff;
+      --accent-color: #00bcd4;
+      --card-bg: #1e1e1e;
+      --font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: var(--font);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--card-bg);
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: var(--accent-color);
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .card {
+      background: var(--card-bg);
+      padding: 1.5rem;
+      margin: 1rem 0;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+
+    h2 {
+      color: var(--accent-color);
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: var(--card-bg);
+      color: #aaa;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      section {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dani Vijila Catherine.D</h1>
+    <p>Web Developer | Portfolio</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>As a B.Tech Computer Science student at Karunya Institute of Technology and Sciences, I’m driven by curiosity and a passion for technology that can change lives. I love exploring how coding, data, and biology intersect to solve real-world challenges.</p>
+
+<p>Currently, I’m building a strong foundation in programming, web development, and data science, while diving into emerging fields like bioinformatics. I enjoy hands-on projects that sharpen my problem-solving and analytical thinking skills.</p>
+
+<p>My long-term goal is to contribute innovative solutions at the intersection of computer science and biology — especially in areas like personalized medicine and computational biology.</p>
+
+<p>I’m eager to connect with professionals, mentors, and peers who share my enthusiasm for tech, research, and impact. Let’s learn, collaborate, and grow together!</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="card">
+      <h3>Project One</h3>
+      <p>A short description of the first project. You can link to it or add images.</p>
+    </div>
+    <div class="card">
+      <h3>Project Two</h3>
+      <p>A short description of the second project. Feel free to replace these with real work.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+      <p>Email: danivijiladvc@gmail.com</p>
+      <p>GitHub: github.com/yourusername</p>
+      <p>LinkedIn: www.linkedin.com/in/dani-vijila-catherine</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Dani Vijila Catherine.D. All rights reserved.</p>
+  </footer>
+</body>
+</html>
